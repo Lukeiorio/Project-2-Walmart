@@ -6,8 +6,8 @@ USE project2_db;
 -- Create tables for raw data to be loaded into
 CREATE TABLE features_table (
 date date PRIMARY KEY,
-Temperature float,
-Fuel_Price float,
+temperature float,
+fuel_price float,
 CPI float,
 unemployment float
 );
@@ -20,6 +20,6 @@ size int
 CREATE TABLE info_table (
 date date PRIMARY KEY,
 store_id int,
-Weekly_Sales float,
-IsHoliday boolean
+weekly_sales float,
+is_Holiday boolean
 );
