@@ -21,5 +21,9 @@ CREATE TABLE info_table (
 date date PRIMARY KEY,
 store_id int,
 weekly_sales float,
+<<<<<<< HEAD
 is_Holiday boolean
+=======
+is_holiday boolean
+>>>>>>> 4ad75bef7032a6a02df270a2f0fadd96186c1833
 );
